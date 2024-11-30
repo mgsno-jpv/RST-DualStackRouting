@@ -1,0 +1,57 @@
+virtual disk			.vmdk
+snapshot			.vmss
+vm config			.vmx
+open virtualization file	.ova
+
+rm -rf /etc/udev/rules.d/70 tab
+
+git clone https://github.com/ggenergg/RivanSecureCRTsolo
+
+git clone https://github.com/ggenergg/RST-DualStackRouting
+
+BGP
+-eBGP
+-iBGP
+
+iBGP
+-parehas ng AS number
+
+eBGP
+-tatawid ng ibang AS number
+
+BGP States
+N - Notification
+O - Open
+K - Keep Alive
+U - Update
+
+OSPF States
+D - Down
+I - Initialize
+T - Two-Way
+E - Ex Start
+E - Exchange
+L - Loading
+F - Full
+
+Requirements for OSPF to enter EIGRP
+MTU
+BW
+delay
+reliability
+
+IPV6 Addressing
+- 128bit v 32bits of IPv4
+
+
+1. a:c:: /64
+2. ::/0 [default route ipv6]
+3. fe80::a:0:0:f /64
+4. 2002:6500:0:3000:: /64
+5. ::1 /128 [IPv6 loopback]
+6. ff00::beef:a00a:aa0:0:0 /8
+7. 2001:db8:1::ab9:c0a8:102 /64
+8. 1200:0:130f::9c0:876a:100b /64
+9. 2041:1000:140f::875b:1b /96
+10. 2001:4860:4860::8888 /128 [google ipv6 dns]
+
